@@ -11,7 +11,8 @@ module.exports = function (app, cb) {
     email: 'student-1@classpip.com',
     emailVerified: 1,
     schoolId: 1,
-    avatarId: 6
+    avatarId: 6,
+    mesaId: 1
   }, {
     id: 10001,
     username: 'student-2',
@@ -21,7 +22,8 @@ module.exports = function (app, cb) {
     email: 'student-2@classpip.com',
     emailVerified: 1,
     schoolId: 1,
-    avatarId: 6
+    avatarId: 6,
+    mesaId: 2
   }, {
     id: 10002,
     username: 'student-3',
@@ -31,7 +33,8 @@ module.exports = function (app, cb) {
     email: 'student-3@classpip.com',
     emailVerified: 1,
     schoolId: 2,
-    avatarId: 7
+    avatarId: 7,
+    mesaId: 3
   }, {
     id: 10004,
     username: 'student-4',
@@ -41,7 +44,8 @@ module.exports = function (app, cb) {
     email: 'student-4@classpip.com',
     emailVerified: 1,
     schoolId: 2,
-    avatarId: 7
+    avatarId: 7,
+    mesaId: 1
   }, {
     id: 10005,
     username: 'student-5',
@@ -51,7 +55,8 @@ module.exports = function (app, cb) {
     email: 'student-5@classpip.com',
     emailVerified: 1,
     schoolId: 2,
-    avatarId: 6
+    avatarId: 6,
+    mesaId: 1
   }, {
     id: 10006,
     username: 'student-6',
@@ -61,7 +66,8 @@ module.exports = function (app, cb) {
     email: 'student-6@classpip.com',
     emailVerified: 1,
     schoolId: 2,
-    avatarId: 7
+    avatarId: 7,
+    mesaId: 1
   }, {
     id: 10007,
     username: 'student-7',
@@ -71,7 +77,8 @@ module.exports = function (app, cb) {
     email: 'student-7@classpip.com',
     emailVerified: 1,
     schoolId: 2,
-    avatarId: 6
+    avatarId: 6,
+    mesaId: 1
   }], function (err, students) {
     if (err) throw err;
 

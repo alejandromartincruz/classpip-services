@@ -37,6 +37,11 @@
       "type": "hasAndBelongsToMany",
       "model": "Badge",
       "foreignKey": "studentId"
+    },
+    "mesa": {
+      "type": "belongsTo",
+      "model": "Mesa",
+      "foreignKey": "mesaId"
     }
   },
   "acls": [{
